@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "spout/*"
+            ]
+        },
+        "esModuleInterop": true,
+        "moduleResolution": "NodeNext"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
